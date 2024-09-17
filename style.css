@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+        background-image: url('/bg\ 1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+   
+}
+  
+h1{
+    text-align: center;
+    margin-top: 1rem;
+    color: rgb(17, 7, 7);
+    outline: black;
+    font-size: 4rem;
+    
+}
+.container{
+   
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    gap: 4rem;
+    padding:0 3rem;
+    padding-top: 3rem;
+}
+
+input{
+    width: 12rem;
+    height: 3.5rem;
+    margin:1rem auto;
+    color: rgb(7, 6, 1);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+ label{
+    margin-top: 1rem;
+    font-family: initial;
+    color: #29044c;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+p{
+   font-size: 3rem;
+    background-color: rgb(219, 236, 237);
+    border-radius: 3rem;
+    text-align: center;
+    color: rgb(21, 7, 68);
+    box-shadow: 2px 2px 7px 5px rgb(219, 218, 218);
+    height: auto;
+    width: 25rem;
+   position: absolute;
+   left: 40%;
+   top: 25%;
+}
+
+
+button{
+    width: 10rem;
+    margin-top: 1rem;
+    height: 3.3rem;
+    margin:1rem auto;
+    border: none;
+    border-radius: 3rem;
+    background-color: rgb(54, 107, 182);
+    color: white;
+    font-weight: 700;
+  
+}
+button:hover{
+    background-color: rgb(206, 56, 247);
+    color: black;
+    border: 2px solid cadetblue;
+    
+}
+@media(max-width:500px){
+    body {
+    
+        background-image: url('/bg\ 1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+   
+}
+  
+h1{
+  
+    margin-top: 0.3rem;
+    color: rgb(17, 7, 7);
+    outline: black;
+    font-size: 1.5rem;
+    
+}
+.container{
+   
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    gap: 0.2rem;
+    padding:0 0.5rem;
+    padding-top: 0.3rem;
+}
+
+input{
+    width: 5rem;
+    height: 1rem;
+    margin:0.5rem auto;
+    color: rgb(7, 6, 1);
+    text-align: center;
+    font-size: .5rem;
+    
+    
+}
+ label{
+    margin-top: 0.5rem;
+    font-family: initial;
+    color: #29044c;
+    font-size: .5rem;
+    
+}
+p{
+   font-size: 1rem;
+    background-color: rgb(219, 236, 237);
+    border-radius: 0.5rem;
+    text-align: center;
+    color: rgb(21, 7, 68);
+    box-shadow: 2px 2px 7px 5px rgb(219, 218, 218);
+    height: auto;
+    width: 7rem;
+    position: absolute;
+    top: 7%;
+
+   
+}
+
+
+button{
+    width: 3rem;
+    margin-top: 0.2rem;
+    height: 2rem;
+    margin:0.3rem auto;
+    border: none;
+    border-radius:0.3rem;
+    background-color: rgb(54, 107, 182);
+    color: white;
+   
+  
+}
+button:hover{
+    background-color: rgb(206, 56, 247);
+    color: black;
+    border: 2px solid cadetblue;
+    
+}
+}
